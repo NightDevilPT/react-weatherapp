@@ -7,9 +7,9 @@ import { HiEmojiHappy } from "react-icons/hi";
 import { BiWind } from "react-icons/bi";
 import { WiHumidity } from "react-icons/wi";
 
-// 72bf5c4e77a1b5f99079bd22c5b79725
 
-// https://api.openweathermap.org/data/2.5/weather?q=delhi&appid=72bf5c4e77a1b5f99079bd22c5b79725
+
+
 
 function App() {
   const [theme,setTheme]=useState("dark");
@@ -17,7 +17,7 @@ function App() {
   const [fg,setFg]=useState();
   const [check,setCheck] = useState(false);
   const [city,setCity] = useState("");
-  const API_KEY = "72bf5c4e77a1b5f99079bd22c5b79725";
+  const API_KEY = "";
   const [load,setLoad]=useState(false);
   const [weather,setWeather] = useState({});
 
